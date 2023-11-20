@@ -1,1 +1,284 @@
-/* You can add global styles to this file, and also import other style files */
+You can add global styles to this file, and also import other style files
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.logo{
+  text-align: center;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  /* min-height: 100vh; */
+  background-color: #0D6EFD;
+  padding-bottom: 170px;
+  padding-top: 100px;
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+.wrapper{
+  width: 450px;
+  background-color: #fff;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  padding-bottom: 60px;
+
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+color: black;
+  margin: 30px 0;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(26, 9, 9, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+  color: black;
+}
+.input-box i{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+.wrapper .remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input{
+  color: black;
+  margin-right: 3px;
+
+}
+.remember-forgot a{
+  color: black;
+  text-decoration: none;
+
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background: #0D6EFD;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.wrapper .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}
+/* ================ Login end*/
+.greeting12{
+  border: 2px solid gray;
+  border-radius: 12px;
+  margin: 5px;
+  padding: 30px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+
+.greet-lb{
+border: 2px solid gray;
+  border-radius: 12px;
+  margin: 5px;
+  padding: 30px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+
+/* .rewards-points{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+
+} */
+/* .greet-lb{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+} */
+/* .user-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c51111;
+} */
+/* ===================================================React Project CSS
+ .app-container {
+  height:100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sign-in-lb {
+  padding: 30px;
+}
+
+.searchBar {
+  width: 490px !important;
+}
+
+
+.logo {
+  width:232px;
+  margin-left: 35px;
+}
+
+.name-img {
+padding: 10px;
+}
+
+.nav-bar {
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px !important;
+  border: 1px solid lightgray;
+}
+
+.cards {
+  display: flex;
+  padding: 20px;
+}
+
+.card {
+  width:50%;
+}
+
+.logo-img {
+  width: 45%;
+}
+
+.login-logo {
+  width: 60%;
+}
+
+.dash-lb {
+  margin-left: 35px;
+}
+
+.side-main{
+  display: flex;
+}
+
+.sideBar-container {
+  border-right: 1px solid grey;
+}
+
+.dash-main{
+  max-width: 100%;
+  width: 100%;
+  text-align: initial;
+}
+
+.reward {
+  margin-left: 10px;
+}
+
+.redeem {
+  width: 156px;
+  font-size: smaller !important;
+}
+
+.bb-1 {
+  border-bottom: 1px solid grey;
+}
+
+.greet-lb {
+  margin-top: 40px;
+}
+
+.greeting {
+  background-image: url('./dash-back.jpg');
+  color: white;
+  padding: 15px;
+  height: 170px;
+}
+
+.example {
+    text-align: center;
+  }
+
+.form_container {
+    width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+    .form_container {
+      width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .form_container {
+      width: 65%;
+    }
+}
+
+
+
+.usre1{
+  border-bottom: 1px solid rgb(223, 22, 22);
+  margin-left: 500px;
+}
+
+.example{
+  width: 100%;
+  height: 45px;
+  background: #2d538d;
+  .fa fa-search{
+    width: 220px;
+  height: 100px;
+  background: #289e41;
+  }
+}
+
+*/

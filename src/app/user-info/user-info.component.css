@@ -1,0 +1,12 @@
+.employee1{
+  border: 2px solid gray;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Profile{
+  display: flex;
+}

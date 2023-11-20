@@ -1,0 +1,42 @@
+.rewardspoints{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewards-associate{
+    background-color: #5688d3;
+    border-radius: 8px;
+
+  }
+  .redeem-points{
+    background-color: #5688d3;
+    border-radius: 8px;
+
+  }
+
+  .rewards{
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 30px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+
+.points{
+  border: 2px solid gray;
+  border-radius: 12px;
+  padding: 30px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+}
+
+/* .image1{
+  display: flex;
+}
+.image2{
+  display: flex;
+} */
